@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lone Keem Studios has moved</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://lonekeem.github.io/terms.html">
+<script>
+(function () {
+  var p = location.pathname.replace(/^\/Lone-Keem-Studios(?=\/|$)/i, '') || '/';
+  if (p === '/index.html') p = '/';
+  try {
+    if ('serviceWorker' in navigator) navigator.serviceWorker.getRegistrations().then(function (rs) {
+      rs.forEach(function (r) { if (/\/Lone-Keem-Studios\//i.test(r.scope)) r.unregister(); });
+    });
+  } catch (e) {}
+  location.replace('https://lonekeem.github.io' + p + location.search + location.hash);
+})();
+</script>
+<meta http-equiv="refresh" content="0; url=https://lonekeem.github.io/terms.html">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#000;color:#fff;font:16px/1.5 Inter,system-ui,sans-serif;text-align:center}a{color:#b57bff}</style>
+</head>
+<body>
+<p>Lone Keem Studios has moved to <a href="https://lonekeem.github.io/">lonekeem.github.io</a>.</p>
+</body>
+</html>
